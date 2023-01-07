@@ -1,0 +1,32 @@
+.header{
+    background-color: #003F51;
+    text-align: center;
+    border-radius: 5px;
+    height: 12%;
+}
+.header img{
+    height: 10%;
+    width: 60%;
+}
+.navbar{
+    background-color: #6A8B93;
+    margin-top: -10px;
+    height: 3%;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 1%;
+}
+.navbar div{
+    display: inline-block;
+    width: 10%;
+    height: 3%;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:active{
+    text-decoration-color: #6A8B93;
+    color: #003F51; 
+    text-decoration: underline;
+}
