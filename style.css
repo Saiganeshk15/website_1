@@ -18,7 +18,7 @@
 }
 .navbar div{
     display: inline-block;
-    width: 10%;
+    width: 7%;
     height: 3%;
 }
 .navbar a{
@@ -30,21 +30,18 @@
     color: #003F51; 
     text-decoration: underline;
 }
-.background{
-    text-align: center;
-    background-image: "avishkar2023finallogo.png";
-    height: 85%;
-    width: 100%;
-}
-h1{
-    font-family: sans-serif;
-    padding-bottom: 5%;
-}
+
 .footer{
-    height: 5%;
-    width: 100%;
+    text-align: center;
+    color: white;
     background-color: #003F51;
+    border-radius: 5px;
 }
-.footer div{
+.logos div{
     display: inline-block;
+    padding: 0% 2%;
+}
+.logos img{
+    height: 50px;
+    width: 50px;
 }

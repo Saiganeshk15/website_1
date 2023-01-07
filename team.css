@@ -18,7 +18,7 @@
 }
 .navbar div{
     display: inline-block;
-    width: 10%;
+    width: 7%;
     height: 3%;
 }
 .navbar a{
@@ -29,4 +29,18 @@
     text-decoration-color: #6A8B93;
     color: #003F51; 
     text-decoration: underline;
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #003F51;
+    border-radius: 5px;
+}
+.logos div{
+    display: inline-block;
+    padding: 0% 2%;
+}
+.logos img{
+    height: 50px;
+    width: 50px;
 }
