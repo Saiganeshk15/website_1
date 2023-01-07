@@ -32,10 +32,19 @@
 }
 .background{
     text-align: center;
-}
-.background img{
+    background-image: "avishkar2023finallogo.png";
+    height: 85%;
     width: 100%;
 }
-.background div{
-    margin-top: -500px;
+h1{
+    font-family: sans-serif;
+    padding-bottom: 5%;
+}
+.footer{
+    height: 5%;
+    width: 100%;
+    background-color: #003F51;
+}
+.footer div{
+    display: inline-block;
 }
