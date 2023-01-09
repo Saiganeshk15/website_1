@@ -30,6 +30,9 @@
     color: #003F51; 
     text-decoration: underline;
 }
+body{
+    font-family: sans-serif;
+}
 .footer{
     text-align: center;
     color: white;
@@ -41,6 +44,32 @@
     padding: 0% 2%;
 }
 .logos img{
+    height: 30px;
+    width: 30px;
+}
+.rows div img{
     height: 50px;
     width: 50px;
+    padding-bottom: 20px;
+}
+.grid{
+    text-align: center;
+    padding: 5%;
+}
+.rows div{
+    display: inline-block;
+    background-color: #D1EEFF;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 200px;
+    width: 220px;
+}
+.rows div a{
+    color: black;
+    text-decoration-line: none;
+}
+.rows div{
+    border: 4px solid black;
 }
