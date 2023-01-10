@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-.header{
+.header {
     background-color: #003F51;
     text-align: center;
     height: 12%;
 }
-.header img{
+
+.header img {
     height: 10%;
     width: 60%;
 }
@@ -18,7 +19,7 @@
     display: flex;
     background-color: #6A8B93;
     justify-content: flex-end;
-    padding: 10px 0px ;
+    padding: 10px 0px;
 
 }
 
@@ -26,7 +27,7 @@
 .navbar .navtools {
     width: 50%;
     display: flex;
-    gap: 5%;
+    gap: 3%;
     align-items: center;
 
 
@@ -40,20 +41,27 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
-    font-weight: bold;
     font-size: 25px;
     margin: 0px 7px;
 }
 
 .navbar .navtools li a:active {
     text-decoration: underline;
-   color: #003F51;
+    color: #003F51;
     padding: 15px;
     border-radius: 20px;
 }
 
 /*  burger   **/
 @media only screen and (max-width:1200px) {
+    .header {
+        height: 40px ;
+    }
+    .header img {
+        height: 38px;
+        width: 340px ;
+    }
+
     .navbar .navtools {
         flex-direction: column;
         gap: 20px;
@@ -63,7 +71,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 450px;
+        height: 350px;
         transition: 0.7s ease-out;
     }
 
@@ -73,12 +81,13 @@
         align-items: center;
         flex-direction: column;
 
-    }  
+    }
+
     /****/
     .burger {
         position: absolute;
         right: 3%;
-        top: 15px;
+        top: 50px;
         cursor: pointer;
 
     }
@@ -91,7 +100,7 @@
     }
 
     .h-nav-resp {
-        height: 70px;
+        height: 40px;
     }
 
     .v-class-resp {
