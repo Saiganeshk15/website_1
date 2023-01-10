@@ -20,12 +20,6 @@
 
 }
 
-.navbar .navtools .logo img {
-    height: 60px;
-    border: 2px solid white;
-    border-radius: 60pc;
-    margin-left: 20px;
-}
 
 .navbar .navtools {
     width: 50%;
@@ -49,9 +43,9 @@
     margin: 0px 7px;
 }
 
-.navbar .navtools li a:hover {
+.navbar .navtools li a:active {
     text-decoration: underline;
-    background: black;
+   color: #003F51;
     padding: 15px;
     border-radius: 20px;
 }
@@ -77,12 +71,7 @@
         align-items: center;
         flex-direction: column;
 
-    }
-
-    
-
-   
-
+    }  
     /****/
     .burger {
         position: absolute;
