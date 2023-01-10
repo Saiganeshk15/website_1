@@ -1,46 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 .header{
     background-color: #003F51;
     text-align: center;
-    border-radius: 5px;
     height: 12%;
 }
 .header img{
     height: 10%;
     width: 60%;
 }
-.navbar{
+
+/*       navbar starts here      */
+.navbar {
+    display: flex;
     background-color: #6A8B93;
-    margin-top: -10px;
-    height: 3%;
-    text-align: right;
-    padding-right: 20px;
-    padding-top: 1%;
+
 }
-.navbar div{
-    display: inline-block;
-    width: 7%;
-    height: 3%;
+
+.navbar .navtools .logo img {
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 60pc;
+    margin-left: 20px;
 }
-.navbar a{
+
+.navbar .navtools {
+    width: 50%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+
+
+}
+
+.navbar .navtools li {
+    list-style: none;
+}
+
+.navbar .navtools li a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px 7px;
 }
-.navbar a:active{
-    text-decoration-color: #6A8B93;
-    color: #003F51; 
+
+.navbar .navtools li a:hover {
     text-decoration: underline;
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
 }
-.footer{
-    text-align: center;
-    color: white;
-    background-color: #003F51;
-    border-radius: 5px;
-}
-.logos div{
-    display: inline-block;
-    padding: 0% 2%;
-}
-.logos img{
-    height: 30px;
-    width: 30px;
+
+/*  burger   **/
+@media only screen and (max-width:1200px) {
+    .navbar .navtools {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        transition: 0.7s ease-out;
+    }
+
+    .navbar .rightnav {
+        padding: 30px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    
+
+   
+
+    /****/
+    .burger {
+        position: absolute;
+        right: 3%;
+        top: 15px;
+        cursor: pointer;
+
+    }
+
+    .line {
+        width: 33px;
+        height: 3px;
+        background-color: whitesmoke;
+        margin: 5px 3px;
+    }
+
+    .h-nav-resp {
+        height: 70px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
 }
