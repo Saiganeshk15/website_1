@@ -11,7 +11,7 @@
 
 .header img {
     height: 10%;
-    width: 60%;
+    width: 80%;
 }
 
 /*       navbar starts here      */
@@ -53,13 +53,13 @@
 }
 
 /*  burger   **/
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1300px) {
     .header {
         height: 40px ;
     }
     .header img {
         height: 38px;
-        width: 340px ;
+        width: 320px ;
     }
 
     .navbar .navtools {
