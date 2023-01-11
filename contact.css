@@ -63,6 +63,8 @@ body{
     border-radius: 20px;
     margin-right: 5%;
     margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: 200px;
     width: 220px;
 }
