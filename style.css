@@ -3,6 +3,31 @@
     margin: 0px;
 }
 
+.text h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+
+    color: #003F51;
+    padding: 0px 10px;
+    margin: 10px 0px;
+
+}
+
+.text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20px + 0.5vw);
+    line-height: 150%;
+    letter-spacing: -0.019em;
+    color: #1E1E1E;
+    text-align: center;
+}
+
 .header {
     background-color: #003F51;
     text-align: center;
@@ -55,11 +80,12 @@
 /*  burger   **/
 @media only screen and (max-width:1300px) {
     .header {
-        height: 40px ;
+        height: 40px;
     }
+
     .header img {
         height: 38px;
-        width: 320px ;
+        width: 320px;
     }
 
     .navbar .navtools {
@@ -106,66 +132,183 @@
     .v-class-resp {
         opacity: 0;
     }
+
 }
-.bgpic{
+
+
+/**********  nav ends here**********/
+
+
+
+.bgpic {
     width: 100%;
     height: 500px;
 }
-.textinpic{
+
+.textinpic {
     margin-top: -300px;
     text-align: center;
     margin-bottom: 150px;
 }
-.timer{
+
+.timer {
     text-align: center;
 }
-button{
+
+button {
     height: 40px;
     width: 20%;
     background-color: black;
     border-radius: 5px;
     color: white;
 }
-button:hover{
+
+button:hover {
     opacity: 60%;
 }
+
 @media screen and (max-width: 600px) {
-    .bgpic{
+    .bgpic {
         height: 250px;
     }
-    .textinpic{
+
+    .textinpic {
         margin-top: -200px;
         font-size: x-small;
         margin-bottom: 90px;
     }
-    .footer{
+
+    .footer {
         font-size: x-small;
     }
-    .ah1{
+
+    .ah1 {
         font-size: medium;
     }
 }
-.ah1{
+
+.ah1 {
     font-size: large;
 }
-.countdown-timer{
+
+.countdown-timer {
     pointer-events: none;
     cursor: default;
 }
-.about{
-    padding-left: 50px;
+
+/****************about  starts here ******* */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    align-items: center;
 }
-.footer{
+
+.about .text {
+    max-width: 70%;
+}
+
+.about .logo {
+    width: 421px;
+    height: 385px;
+    background: #FFDBDB;
+    border: 1px solid #0D99FF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .logo img {
+    width: 380.88px;
+    height: 279.93px;
+    padding-top: 32px;
+}
+
+@media screen and (max-width:1200px) {
+    .about {
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .text {
+        max-width: 90%;
+    }
+
+    .about .logo {
+        max-width: 330px;
+        height: 300px;
+        margin: 25px 0px ;
+    }
+
+    .about .logo img {
+        max-width: 300px;
+        height:230px ;
+
+    }
+
+
+
+}
+
+/****************about  ends s here ******* */
+/*************** Gallery starts here *****/
+
+
+.gallary .pics {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.gallary .gal_pic img {
+    width: 600px;
+    max-width: 90%;
+    text-align: center;
+}
+.gallary h2{
+    margin: 0px 40px ;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .gallary .pics {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+}
+
+/*************** Gallery Ends  here ************/
+
+
+
+
+
+
+/*************** footer starts here*************/
+.footer {
     text-align: center;
     color: white;
     background-color: #003F51;
     border-radius: 5px;
 }
-.logos div{
+
+.logos div {
     display: inline-block;
     padding: 0% 2%;
 }
-.logos img{
+
+.logos img {
     height: 30px;
     width: 30px;
 }
