@@ -285,7 +285,9 @@ button:hover {
         align-items: center;
         text-align: center;
     }
-
+    .gal_pic{
+        margin-bottom: 40px;
+    }
 
 
 }
