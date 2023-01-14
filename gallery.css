@@ -107,6 +107,41 @@
         opacity: 0;
     }
 }
+/*************** Gallery starts here *****/
+
+
+.gallary .pics {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.gallary .gal_pic img {
+    width: 600px;
+    max-width: 90%;
+    text-align: center;
+}
+.gallary h2{
+    margin: 0px 40px ;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .gallary .pics {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gal_pic{
+        margin-bottom: 40px;
+    }
+
+
+}
+
+/*************** Gallery Ends  here ************/
 
 .footer{
     text-align: center;
