@@ -107,6 +107,41 @@
         opacity: 0;
     }
 }
+/*******nav bar ends here*******/
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #003F51;
+    line-height: 25px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #003F51;
+    line-height: 25px;
+    padding-left: 20px;
+}
+.video{
+    margin: 50px;
+    text-align: center;
+}
+video{
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 768px){
+    h2{
+        font-size: x-large;
+    }
+    h3{
+        
+    }
+}
+/*******footer starts here*******/
 .footer{
     text-align: center;
     color: white;
