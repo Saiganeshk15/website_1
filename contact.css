@@ -125,6 +125,11 @@ body{
     display: inline-block;
     padding: 0% 2%;
 }
+@media screen and (max-width: 600px){
+   .footer{
+    font-size: x-small;
+   } 
+}
 .logos img{
     height: 30px;
     width: 30px;

@@ -156,3 +156,8 @@ video{
     height: 30px;
     width: 30px;
 }
+@media screen and (max-width: 600px){
+   .footer{
+    font-size: x-small;
+   } 
+}
