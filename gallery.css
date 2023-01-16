@@ -108,8 +108,18 @@
     }
 }
 /*************** Gallery starts here *****/
+*{
+    font-family: Nunito, sans-serif;
+}
 
-
+.text-blk {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #003F51;
+  line-height: 25px;
+}
 .gallary .pics {
     display: flex;
     justify-content: space-evenly;
