@@ -2,6 +2,45 @@
     padding: 0px;
     margin: 0px;
 }
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+
+    color: #003F51;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    text-align: center;
+
+
+    
+
+}
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 0.5vw);
+    line-height: 150%;
+    letter-spacing: -0.022em;
+
+    color: #003F51;
+    padding: 0px 10px;
+    margin: 10px 0px;
+
+}
+p {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(11px + 0.5vw);
+    line-height: 150%;
+    letter-spacing: -0.019em;
+    color: #1E1E1E;
+}
 
 .header {
     background-color: #003F51;
@@ -107,6 +146,17 @@
         opacity: 0;
     }
 }
+/* about content starts here */
+
+.about-content{
+    margin: 40px ;
+}
+
+
+
+
+
+/* about content ends here */
 /*************** footer starts here*************/
 .footer {
     text-align: center;
