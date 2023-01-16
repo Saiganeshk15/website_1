@@ -128,6 +128,8 @@ flex-direction: column;
     color: #444;
     cursor: pointer;
     padding: 30px 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
     width: 60%;
     border: none;
     outline: none;
@@ -138,11 +140,12 @@ flex-direction: column;
     margin: auto;
     /* text-align: center; */
    width: 50%; 
+   display: none;
    padding: auto;
    
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
+.hover,
 .faq-page:hover {
     background-color: #F9F9F9;
 }
@@ -150,7 +153,7 @@ flex-direction: column;
 .faq-body {
     padding: 0 18px;
     background-color: white;
-    display: none;
+
     overflow: hidden;
 }
 .faq-page:after {
@@ -180,4 +183,9 @@ flex-direction: column;
 .logos img{
     height: 30px;
     width: 30px;
+}
+@media screen and (max-width: 600px){
+   .footer{
+    font-size: x-small;
+   } 
 }
