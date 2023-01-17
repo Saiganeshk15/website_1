@@ -5,18 +5,6 @@
 body{
   position: relative;
 }
-.header {
-    background-color: #003F51;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 12%;
-}
-
-.header img {
-    height: 10%;
-    width: 80%;
-}
 
 /**********team section starts here********/
 .responsive-cell-block {
