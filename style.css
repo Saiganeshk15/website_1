@@ -210,14 +210,19 @@ button:hover {
     color: white;
     background-color: #003F51;
     border-radius: 5px;
+    
+}
+.footer p{
+    font-size: 13px ;
 }
 
 .logos div {
     display: inline-block;
-    padding: 0% 2%;
+    padding: 0% 1%;
 }
 
 .logos img {
-    height: 30px;
-    width: 30px;
+    margin-top: 10px ;
+    height: 20px;
+    width: 20px;
 }
