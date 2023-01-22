@@ -419,18 +419,18 @@ button:hover {
 
 #header .countdown {
   margin-bottom: 80px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #header .countdown div {
   text-align: center;
   margin: 10px;
-  width: 100px;
+  width: 150px;
   padding: 15px 0;
-  background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  background: rgb(255, 255, 255);
 }
 
 #header .countdown div h3 {
