@@ -13,21 +13,25 @@
     height: 10%;
     width: 80%;
 }
+
 /***********faqs starts***********/
-.faq-heading{
+.faq-heading {
     border-bottom: #777;
     padding: 20px 60px;
 }
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
+
+.faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.hr-line{
-  width: 60%;
-  margin: auto;
-  
+
+.hr-line {
+    width: 60%;
+    margin: auto;
+
 }
+
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     background-color: #eee;
@@ -39,22 +43,26 @@ flex-direction: column;
     width: 60%;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: all 0.5s ease-out;
     margin: auto;
 }
-.faq-body{
+
+.faq-body {
     margin: auto;
     /* text-align: center; */
-   width: 50%; 
-   display: none;
-   padding: auto;
-   
+    width: 50%;
+    display: none;
+    padding: auto;
+
 }
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .hover,
 .faq-page:hover {
     background-color: #F9F9F9;
+    
 }
+
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
@@ -62,6 +70,7 @@ flex-direction: column;
 
     overflow: hidden;
 }
+
 .faq-page:after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
@@ -70,28 +79,43 @@ flex-direction: column;
     float: right;
     margin-left: 5px;
 }
+
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
 /**********faqs ends***********/
-.footer{
+.footer {
     margin-top: 50px;
     text-align: center;
     color: white;
     background-color: #003F51;
     border-radius: 5px;
 }
-.logos div{
+
+.logos div {
     display: inline-block;
     padding: 0% 2%;
 }
-.logos img{
+
+.logos img {
     height: 30px;
     width: 30px;
 }
-@media screen and (max-width: 600px){
-   .footer{
-    font-size: x-small;
-   } 
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: x-small;
+    }
+
+    .faq-page{
+        font-size:calc(10px + 1vw);
+        width: 80%;
+    }
+    .faq-body{
+        width: 75%;
+        text-align: justify;
+       
+    } 
 }
