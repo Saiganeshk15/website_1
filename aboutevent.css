@@ -49,6 +49,15 @@ h2 {
     margin-left: 40px ;
     margin-right: 40px;
 }
+@media only screen and (max-width:500px) {
+    .about-content{
+        margin: 0px 13px  ;
+        margin-bottom: 20px;
+
+    }
+    
+}
+.about-content{}
 
 /* about content ends here */
 /*************** footer starts here*************/
