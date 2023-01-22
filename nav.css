@@ -1,4 +1,4 @@
-/* .header {
+.header {
     background-color: #003F51;
     text-align: center;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 .header div a img{
   width: 80%;
-} */
+}
 /******header ends here**********/
 /*       navbar starts here      */
 body {
@@ -30,7 +30,6 @@ body {
 .navbar {
   height: 50px;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #6A8B93;
@@ -46,9 +45,9 @@ body {
 }
 
 .navbar .nav-links {
-  /* display: inline;
-  float: right; */
-  height: 50px;
+  display: inline;
+  float: right;
+
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -72,7 +71,7 @@ body {
   display: none;
 }
 
-@media (max-width:700px) {
+@media (max-width:990px) {
   .navbar {
     height: 50px;
     width: 100%;
@@ -89,8 +88,8 @@ body {
   .navbar .nav-btn label {
     display: inline-block;
     width: 50px;
-    height: 50px;
-    padding-top: 10px;
+    height: 45px;
+    padding-top: 5px;
   }
 
   .navbar .nav-btn label span {
@@ -107,7 +106,6 @@ body {
   }
 
   .navbar .nav-links {
-    position: relative;
     display: block;
     text-align: center;
     width: 100%;
@@ -129,7 +127,7 @@ body {
 
   /* when nav toggle button is checked */
   .navbar #nav-check:checked~.nav-links {
-    height: calc(100vh - 70px);
+    height: 320px;
     overflow-y: auto;
   }
 
@@ -176,3 +174,12 @@ body {
 }
 
 /**********  nav ends here**********/
+@media screen and (max-width: 500px){
+   .footer{
+    font-size: small;
+   } 
+   .logos img{
+    height: 15px;
+    width: 15px;
+   }
+}

@@ -57,9 +57,9 @@
 button {
     height: 40px;
     width: 20%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 100);
     border-radius: 5px;
-    color: #003F51;
+    color: white;
 }
 
 button:hover {
@@ -107,7 +107,7 @@ button:hover {
     align-items: center;
 }
 .about h2{
-    margin: 70px 0px ;
+    margin: 20px 0px;
 }
 
 .about .text {
@@ -166,6 +166,9 @@ button:hover {
 .gallary{
     margin: 50px 0px ;
 }
+.gallary h2{
+    margin: 20px 0px;
+}
 .gallary .pics {
     display: flex;
     justify-content: space-evenly;
@@ -178,7 +181,7 @@ button:hover {
     text-align: center;
 }
 .gallary h2{
-    margin: 70px 40px ;
+    margin: 20px 0px;
 }
 
 

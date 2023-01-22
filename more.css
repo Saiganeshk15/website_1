@@ -45,6 +45,30 @@ video{
     h3{
         font-size: large;
     }
+}/****main section******/
+.social a{
+    display: inline-block;
+    text-decoration-line: none;
+    color: black;
+    font-size: large;
+}
+.social a img{
+    height: 20px;
+    margin-bottom: -5px;
+}
+.samples{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 500px){
+    .samples a{
+        font-size: small;
+    }
+    
+}
+.resouces{
+    text-align: center;
+    margin-bottom: 20px;
 }
 /*******footer starts here*******/
 .footer{
@@ -60,9 +84,4 @@ video{
 .logos img{
     height: 30px;
     width: 30px;
-}
-@media screen and (max-width: 600px){
-   .footer{
-    font-size: x-small;
-   } 
 }

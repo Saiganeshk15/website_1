@@ -1,4 +1,7 @@
-var faq = document.getElementsByClassName("faq-page");
+var x=window.matchMedia("(max-width: 768px)")
+var y=window.matchMedia("(min-width: 768px)")
+function ourfunction(y){
+    var faq = document.getElementsByClassName("faq-page");
 var i;
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("mouseover", function () {
@@ -24,10 +27,15 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
+}
+ourfunction(y)
+y.addEventListener(ourfunction)
+
 /*********faq starts here**************/
-var faq = document.getElementsByClassName("faq-page");
-var i;
-for (i = 0; i < faq.length; i++) {
+function Myfunction(x){
+    var faq = document.getElementsByClassName("faq-page");
+    var i;
+    for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
@@ -36,9 +44,13 @@ for (i = 0; i < faq.length; i++) {
         var body = this.nextElementSibling;
         if (body.style.display === "block") {
             body.style.display = "none";
-        } else {
+        } else{
             body.style.display = "block";
         }
     });
 }
+}
+Myfunction(x)
+x.addEventListener(Myfunction)
+
 /**********faqs ends here*************/
