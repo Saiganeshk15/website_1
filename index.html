@@ -100,6 +100,146 @@
 		</div>
 	</section>
 	<!--gallery section ends here-->
+
+
+
+
+
+
+	<div class="slideshow-container">
+		<h1 class="testimonial">
+		  Testimonials
+		</h1>
+		<div class="slideshow-container">
+		
+		<div class="mySlides fade" style="display: block;">
+		  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+				<div class="card">
+				  <div class="numbertext">1 / 4</div>
+				  <div class="team-image-wrapper">
+					<img class="team-member-image" src="saiganesh.png">
+				  </div>
+				  <p class="text-blk name">
+					<b>K. Sai Ganesh</b>
+				  </p>
+				  <p class="text-blk position">
+					Web Designing
+				  </p>
+				  <p class="text-blk position">
+					Avishkar bestows a cognitive framework in the future pursuits of the freshmen of VBIT. Itassists students in refining their analytical abilities and also procuring new ones. Students gain exposureto diverse technologies and become aware of the professional standards of the presentation. It comprises oftwo rounds:
+					Round 1: Preliminary round. Round 2: Final round.
+				  </p>
+				</div>
+			  </div>
+		</div>
+		
+		<div class="mySlides fade" style="display: none;">
+		  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+				<div class="card">
+				  <div class="numbertext">2 / 4</div>
+				  <div class="team-image-wrapper">
+					<img class="team-member-image" src="saiganesh.png">
+				  </div>
+				  <p class="text-blk name">
+					<b>K. Sai Ganesh</b>
+				  </p>
+				  <p class="text-blk position">
+					Web Designing
+				  </p>
+				  <p class="text-blk position">
+					Avishkar bestows a cognitive framework in the future pursuits of the freshmen of VBIT. Itassists students in refining their analytical abilities and also procuring new ones. Students gain exposureto diverse technologies and become aware of the professional standards of the presentation. It comprises oftwo rounds:
+					Round 1: Preliminary round. Round 2: Final round.
+				  </p>
+				</div>
+			  </div>
+		</div>
+		
+		<div class="mySlides fade" style="display: none;">
+		  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+				<div class="card">
+				  <div class="numbertext">3 / 4</div>
+				  <div class="team-image-wrapper">
+					<img class="team-member-image" src="saiganesh.png">
+				  </div>
+				  <p class="text-blk name">
+					<b>K. Sai Ganesh</b>
+				  </p>
+				  <p class="text-blk position">
+					Web Designing
+				  </p>
+				  <p class="text-blk position">
+					Avishkar bestows a cognitive framework in the future pursuits of the freshmen of VBIT. Itassists students in refining their analytical abilities and also procuring new ones. Students gain exposureto diverse technologies and become aware of the professional standards of the presentation. It comprises oftwo rounds:
+					Round 1: Preliminary round. Round 2: Final round.
+				  </p>
+				</div>
+			</div>
+		</div>
+		<div class="mySlides fade" style="display: none;">
+		  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+				<div class="card">
+				  <div class="numbertext">4 / 6</div>
+				  <div class="team-image-wrapper">
+					<img class="team-member-image" src="saiganesh.png">
+				  </div>
+				  <p class="text-blk name">
+					<b>K. Sai Ganesh</b>
+				  </p>
+				  <p class="text-blk position">
+					Web Designing
+				  </p>
+				  <p class="text-blk position">
+					Avishkar bestows a cognitive framework in the future pursuits of the freshmen of VBIT. Itassists students in refining their analytical abilities and also procuring new ones. Students gain exposureto diverse technologies and become aware of the professional standards of the presentation. It comprises oftwo rounds:
+					Round 1: Preliminary round. Round 2: Final round.
+				  </p>
+				</div>
+			</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		<div style="text-align:center">
+		  <span class="dot active" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		  <span class="dot" onclick="currentSlide(6)"></span> 
+		</div>
+		</div>
+		<br>
+		<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		  <script src="login.js"></script>
+		  <!--footer section ends here-->
+		
+		
+		</div>
 	<!---footer section starts here-->
 	<footer class="footer">
 		<p>Designed and Developed by Web Designing Team | AVISHKAR 2K23</p>
