@@ -11,7 +11,23 @@
     height: 12%;
 }
 .header div a img{
-  width: 80%;
+  width: 60%;
+  display: flex;
+  
+}
+.header .vbitlogo{
+  margin-left: 2.0vw ;
+}
+.header .avklogo{
+display: flex;
+align-items: flex-end;
+margin-right: 2.5vw; 
+
+}
+.header .avklogo a{
+  display: flex;
+  flex-direction: row-reverse;
+
 }
 /******header ends here**********/
 /*       navbar starts here      */
@@ -51,6 +67,7 @@ body {
   font-size: 18px;
   display: flex;
   align-items: center;
+  margin-right: 2.0vw;
 }
 
 .navbar .nav-links a {
@@ -86,10 +103,13 @@ body {
   }
 
   .navbar .nav-btn label {
-    display: inline-block;
+    display: flex;
     width: 50px;
     height: 45px;
     padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .navbar .nav-btn label span {
