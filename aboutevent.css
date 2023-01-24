@@ -14,10 +14,6 @@ h1{
     padding: 0px 10px;
     margin: 10px 0px;
     text-align: center;
-
-
-    
-
 }
 h2 {
     font-family: 'Inter';
@@ -31,6 +27,10 @@ h2 {
     padding: 0px 10px;
     margin: 10px 0px;
 
+}
+.about-content p{
+    margin: 5px 3% ;
+    text-align: justify;
 }
 
 .header {
