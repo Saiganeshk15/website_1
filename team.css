@@ -5,6 +5,18 @@
 body{
   position: relative;
 }
+ .responsive-container-block  h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -0.022em;
+  color: #003F51;
+  padding: 0px 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
 
 /**********team section starts here********/
 .responsive-cell-block {
@@ -50,7 +62,7 @@ body{
 
 .container {
   max-width: 1380px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-right: auto;
   margin-bottom: 60px;
   margin-left: auto;

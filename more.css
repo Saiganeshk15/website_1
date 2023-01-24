@@ -13,76 +13,95 @@
     height: 10%;
     width: 80%;
 }
-h2{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 48px;
-    font-weight: 900;
-    color: #003F51;
-    line-height: 25px;
-}
-h3{
-    margin-top: 20px;
+
+ .main h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 40px;
-    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.022em;
+    color: #003F51;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
     color: #003F51;
     line-height: 25px;
     padding-left: 20px;
 }
-.video{
+
+.video {
     margin: 50px;
     text-align: center;
 }
-video{
+
+video {
     height: 80%;
     width: 90%;
     border-radius: 5px;
 }
-@media only screen and (max-width: 768px){
-    h2{
+
+@media only screen and (max-width: 768px) {
+    h2 {
         font-size: x-large;
     }
-    h3{
+
+    h3 {
         font-size: large;
     }
-}/****main section******/
-.social a{
+}
+
+/****main section******/
+.social a {
     display: inline-block;
     text-decoration-line: none;
     color: black;
     font-size: large;
 }
-.social a img{
+
+.social a img {
     height: 20px;
     margin-bottom: -5px;
 }
-.samples{
+
+.samples {
     margin-left: 40px;
     margin-top: 20px;
 }
-@media screen and (max-width: 500px){
-    .samples a{
+
+@media screen and (max-width: 500px) {
+    .samples a {
         font-size: small;
     }
-    
+
 }
-.resources{
+
+.resources {
     text-align: center;
     margin-bottom: 20px;
     font-size: 160%;
 }
+
 /*******footer starts here*******/
-.footer{
+.footer {
     text-align: center;
     color: white;
     background-color: #003F51;
     border-radius: 5px;
 }
-.logos div{
+
+.logos div {
     display: inline-block;
     padding: 0% 2%;
 }
-.logos img{
+
+.logos img {
     height: 30px;
     width: 30px;
 }

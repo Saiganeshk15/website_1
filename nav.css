@@ -13,6 +13,7 @@
 .header div a img{
   width: 60%;
   display: flex;
+  margin: 1% 0%;
   
 }
 .header .vbitlogo{
@@ -44,7 +45,7 @@ body {
 }
 
 .navbar {
-  height: 50px;
+  height: 45px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +91,7 @@ body {
 
 @media (max-width:990px) {
   .navbar {
-    height: 50px;
+    height: 45px;
     width: 100%;
   }
 
