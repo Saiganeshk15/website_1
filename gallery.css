@@ -25,6 +25,20 @@
     margin: 10px 0px;
     text-align: center;
 }
+.gal_pic{
+    width: 25%;
+    margin-bottom: 30px;
+}
+.pic{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.pic:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
 /*************** Gallery starts here *****/
 .text-blk {
   text-align: center;
