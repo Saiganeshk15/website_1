@@ -34,7 +34,12 @@
     justify-content: center;
     flex-direction: column;
 }
-
+.faq-container div{
+    margin-bottom: 3%;
+}
+.faq-one{
+    margin-top: 2%;
+}
 .hr-line {
     width: 60%;
     margin: auto;

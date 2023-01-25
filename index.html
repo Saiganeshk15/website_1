@@ -34,16 +34,7 @@
     <!-- Navbar items -->
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <!-- Dropdown menu -->
-      <div class="dropdown">
-        <a class="dropBtn" href="#">About
-          <i class="fas fa-angle-down"></i>
-        </a>
-        <div class="drop-content">
-          <a href="aboutevent.html">About Event</a>
-          <a href="aboutjudges.html">About Judges</a>
-        </div>
-      </div>
+      <a href="aboutevent.html">About</a>
 	  <a href="gallery.html">Gallery</a>
       <a href="team.html">Our Team</a>
       <a href="faq.html">Faqs</a>
@@ -58,135 +49,32 @@
 		<div class="textinpic ">
 			<h2>THE MOST AWAITED EVENT IS BACK</h2>
 			<h2>AVISHKAR 2K23</h2>
-			<button onclick="window.location.href=''">
-				<span>Register</span>
-			</button>
+			<a href="#" class="cta">
+  <span>Register</span>
+  <svg width="13px" height="10px" viewBox="0 0 13 10">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
+</a>
 		</div>
 	</section>
 	<!--main pic ends here-->
 	<!--timer section starts here-->
+	<!--div class="text"><h2>Event starts in :</h2></div-->
 	<div class="timer">
 		<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-		<a href="https://logwork.com/countdown-x69u" aria-disabled="true" class="countdown-timer" data-style="columns"
-			data-timezone="Asia/Kolkata" data-textcolor="#000000" data-date="2023-01-31 18:00" data-background="#e5f4ff"
-			data-digitscolor="#000000" data-unitscolor="#000000" aria-disabled="true">Registration closes in</a>
+<a href="https://logwork.com/countdown-x3jn" class="countdown-timer" data-timezone="Asia/Kolkata" data-date="2023-02-07 00:00">Event starts in :</a>
 	</div>
-	<!-- ======= Header ======= -->
-	<header id="header" class="d-flex align-items-center bg-blue">
-		<div class="container d-flex flex-column align-items-center">
+  <main id="main">
 	
-		  <!-- <h1>ComingSoon</h1> -->
-		  <!-- <h2>We're working hard to improve our website and we'll ready to launch after</h2> -->
-		  <div class="countdown d-flex justify-content-center" data-count="2023/2/1">
-			<div>
-			  <h3>%d</h3>
-			  <h4>Days</h4>
-			</div>
-			<div>
-			  <h3>%h</h3>
-			  <h4>Hours</h4>
-			</div>
-			<div>
-			  <h3>%m</h3>
-			  <h4>Minutes</h4>
-			</div>
-			<div>
-			  <h3>%s</h3>
-			  <h4>Seconds</h4>
-			</div>
-		  </div>
-		  <div class="social-links text-center">
-			<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-			<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-			<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-			<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-		  </div>
-	
-		</div>
-	  </header>
-	  
-	 
-	 <script >
-
-(function() {
-  "use strict";
-
-  /**
-   * Easy selector helper function
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
-    }
-  }
-
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
-    }
-  }
-
-  /**
-   * Easy on scroll event listener 
-   */
-  const onscroll = (el, listener) => {
-    el.addEventListener('scroll', listener)
-  }
-
-  /**
-   * Back to top button
-   */
-  let backtotop = select('.back-to-top')
-  if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add('active')
-      } else {
-        backtotop.classList.remove('active')
-      }
-    }
-    window.addEventListener('load', toggleBacktotop)
-    onscroll(document, toggleBacktotop)
-  }
-
-  /**
-   * Countdown timer
-   */
-  let countdown = select('.countdown');
-  const output = countdown.innerHTML;
-
-  const countDownDate = function() {
-    let timeleft = new Date(countdown.getAttribute('data-count')).getTime() - new Date().getTime();
-
-    let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-
-    countdown.innerHTML = output.replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
-  }
-  countDownDate();
-  setInterval(countDownDate, 1000);
-
-})()
-	 </script>
 	  <!-- End #header -->
 	<!--timer section ends here-->
 	<!--about section starts here-->
+	<div class="text"><h2><b>ABOUT AVISHKAR :</b></h2></div>
+	
 	<section class="about">
 		<div class="text">
-			<h2>ABOUT AVISHKAR :</h2>
+			
 			<p style="text-align: justify;">
 				Avishkar, the flagship event of IEEE - VBIT SB, is a Technical Paper Presentation Competition held every
 				year, exclusively for the first-year students of VBIT. In the year 2011, IEEE - VBIT SB was awarded the
@@ -203,7 +91,9 @@
 	<!--about section ends here-->
 	<!--gallery setion starts here-->
 	<section class="gallary text">
-		<h2>GALLERY :</h2>
+		<h2>
+			<b>GALLERY :</b>
+		</h2>
 		<div class="pics">
 			<div class="gal_pic"><img src="avishkar gallery.jpg" alt="Gallery-pics"></div>
 			<div class="gal_pic"><img src="avishkar gallery.jpg" alt="Gallery-pics"></div>
@@ -216,11 +106,9 @@
 
 
 
-
+	<div class="text"><h2><b>Testimonials :</b></h2></div>
 	<div class="slideshow-container">
-		<h1 class="testimonial">
-		  Testimonials
-		</h1>
+		
 		<div class="slideshow-container">
 		
 		<div class="mySlides fade" style="display: block;">
