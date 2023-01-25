@@ -36,7 +36,6 @@ body{
   min-height: 75px;
   height: fit-content;
   max-width: 100%;
-  display: flex;
   flex-wrap: wrap;
   margin-top: 0px;
   margin-right: auto;
@@ -44,7 +43,9 @@ body{
   margin-left: auto;
   justify-content: space-evenly;
 }
-
+.responsive-container-block .responsive-cell-block{
+  display: inline-block;
+}
 .team-head-text {
   font-size: 48px;
   font-weight: 900;

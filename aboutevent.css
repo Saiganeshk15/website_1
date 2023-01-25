@@ -28,7 +28,6 @@ h2 {
     letter-spacing: -0.022em;
 
     color: #003F51;
-    padding: 0px 10px;
     margin: 10px 0px;
 
 }
@@ -44,7 +43,13 @@ h2 {
     width: 80%;
 }
 /* about content starts here */
-
+.hd-li{
+    padding: auto;
+}
+.pi-li{
+    margin-left: 2%;
+    justify-content: center;
+}
 .about-content{
     margin-left: 40px ;
     margin-right: 40px;
@@ -60,25 +65,3 @@ h2 {
 .about-content{}
 
 /* about content ends here */
-/*************** footer starts here*************/
-.footer {
-    text-align: center;
-    color: white;
-    background-color: #003F51;
-    border-radius: 5px;
-}
-
-.logos div {
-    display: inline-block;
-    padding: 0% 2%;
-}
-
-.logos img {
-    height: 30px;
-    width: 30px;
-}
-@media screen and (max-width: 600px){
-   .footer{
-    font-size: x-small;
-   } 
-}

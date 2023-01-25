@@ -21,7 +21,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(20px + 0.5vw);
     line-height: 150%;
     letter-spacing: -0.019em;
     color: #1E1E1E;
@@ -30,6 +29,7 @@
 
 
 .bgpic {
+    margin-top: -2%;
     width: 100%;
     height:800px;
     background: rgba(0, 0, 0, 0.207) url(mainpic.png);
@@ -55,18 +55,59 @@
     margin-bottom: 40px;
     font-size: calc(20px + 1vw);
 }
-button {
-    height: 40px;
-    width: 20%;
-    background-color: rgba(0, 0, 0, 100);
-    border-radius: 5px;
-    color: white;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-button:hover {
-    opacity: 60%;
-    color: white;
-    background: #003F51;
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 171, 157, 0.5);
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #ffab9d;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
 }
 
 @media screen and (max-width: 600px) {
@@ -98,13 +139,16 @@ button:hover {
     pointer-events: none;
     cursor: default;
 }
+.countdown-timer a{
+  text-decoration-color: white;
+}
 
 /****************about  starts here ******* */
 
 .about {
     display: flex;
     justify-content: space-between;
-    margin: 50px 40px;
+    margin: 10px 40px;
     align-items: center;
 }
 .about h2{
@@ -113,22 +157,11 @@ button:hover {
 
 .about .text {
     max-width: 70%;
-}
-
-.about .logo {
-    width: 421px;
-    height: 385px;
-    background: #FFDBDB;
-    border: 1px solid #0D99FF;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: larger;
 }
 
 .about .logo img {
-    width: 380.88px;
-    height: 279.93px;
+    height: 249.93px;
     padding-top: 32px;
 }
 
