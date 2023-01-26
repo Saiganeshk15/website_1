@@ -80,7 +80,13 @@ body {
 
 /* Hover effects */
 .navbar .nav-links a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: rgb(0, 0, 80);
+  transition: 0.4s ease-in;
+}
+.navbar .nav-links a:active {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: rgb(0, 0, 80);
 }
 
 /* responsive navbar toggle button */
@@ -130,6 +136,7 @@ body {
     text-align: center;
     width: 100%;
     background-color: #0081c2;
+    background-color:#0081c2;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
@@ -167,7 +174,7 @@ body {
 .drop-content {
   display: none;
   position: absolute;
-  background-color: #6A8B93;
+  background-color: #0081c2;
   min-width: 130px;
   font-size: 16px;
   top: 34px;
