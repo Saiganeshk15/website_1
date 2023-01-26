@@ -80,7 +80,13 @@ body {
 
 /* Hover effects */
 .navbar .nav-links a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: rgb(0, 0, 80);
+  transition: 0.4s ease-in;
+}
+.navbar .nav-links a:active {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: rgb(0, 0, 80);
 }
 
 /* responsive navbar toggle button */
