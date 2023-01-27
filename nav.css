@@ -68,7 +68,17 @@ body {
   font-size: 18px;
   display: flex;
   align-items: center;
+
 }
+@media only screen and (min-width: 1024px ) {
+  .navbar .nav-links{
+    margin-right: 2%;
+  }
+
+
+  
+}
+
 
 .navbar .nav-links a {
   padding: 10px 12px;
@@ -210,7 +220,8 @@ body {
     
 }
 .footer p{
-    font-size: 13px ;
+    font-size: 15px ;
+    margin-top: 10px;
 }
 
 .logos div {
