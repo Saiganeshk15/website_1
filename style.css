@@ -36,7 +36,7 @@
   margin-top: -2%;
   width: 100%;
   height: 800px;
-  background: rgba(0, 0, 0, 0.207) url(wave\ bg.jpg) center;
+  background: rgba(0, 0, 0, 0.207) url(/bg-pic.jpg) center;
   background-size: cover;
   background-blend-mode: normal;
   display: flex;
@@ -139,7 +139,7 @@ button {
   transition: all 0.3s ease;
 }
 
-.cta:hover:before {
+.cta:hover::before {
   width: 100%;
   background: #ffab9d;
 }
@@ -288,6 +288,7 @@ button {
 /* Slideshow container */
 .slideshow-container {
   max-width: max-content;
+  width: 98%;
   position: relative;
   margin: auto;
 }
@@ -295,6 +296,9 @@ button {
 .testimonial {
   text-align: center;
   margin-bottom: 50px;
+}
+.justify{
+  text-align: justify;
 }
 
 /* Next & previous buttons */
@@ -309,7 +313,7 @@ button {
   color: black;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  /* transition: 0.6s ease; */
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -318,12 +322,14 @@ button {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin: 0px -10px ;
 }
 
 /* position the "previous button" to the left */
 .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
+  margin: 0px -10px ;
 }
 
 /* On hover, add a black background color with a little bit see-through */
