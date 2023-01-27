@@ -46,81 +46,19 @@
 	</div>
 	<!--navbar ends here-->
 	<!--main pic starts here-->
-	<section aria-label="Newest Photos">
-		<div class="carousel" data-carousel>
-			<button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-			<button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-			<ul data-slides>
-				<li class="slide" data-active>
-					<section class="main bgpic">
-						<div class="textinpic ">
-							<h2>THE MOST AWAITED EVENT IS BACK</h2>
-							<h2>AVISHKAR 2K23 </h2>
-							<a href="" class="cta">
-								<span>Register</span>
-								<svg width="13px" height="10px" viewBox="0 0 13 10">
-									<path d="M1,5 L11,5"></path>
-									<polyline points="8 1 12 5 8 9"></polyline>
-								</svg>
-							</a>
-						</div>
-					</section>
-				</li>
-				<li class="slide">
-					<section class="main bgpic">
-						<div class="textinpic ">
-							<h2>THE MOST AWAITED EVENT IS BACK</h2>
-							<h2>AVISHKAR 2K23 </h2>
-							<a href="" class="cta">
-								<span>Register</span>
-								<svg width="13px" height="10px" viewBox="0 0 13 10">
-									<path d="M1,5 L11,5"></path>
-									<polyline points="8 1 12 5 8 9"></polyline>
-								</svg>
-							</a>
-						</div>
-					</section>
-				</li>
-				<li class="slide">
-					<section class="main bgpic">
-						<div class="textinpic ">
-							<h2>THE MOST AWAITED EVENT IS BACK</h2>
-							<h2>AVISHKAR 2K23</h2>
-							<a href="" class="cta">
-								<span>Register</span>
-								<svg width="13px" height="10px" viewBox="0 0 13 10">
-									<path d="M1,5 L11,5"></path>
-									<polyline points="8 1 12 5 8 9"></polyline>
-								</svg>
-							</a>
-						</div>
-					</section>
-				</li>
-			</ul>
+	<section class="main bgpic">
+		<div class="textinpic ">
+			<h2>THE MOST AWAITED EVENT IS BACK</h2>
+			<h2>AVISHKAR 2K23 </h2>
+			<a href="" class="cta">
+				<span>Register</span>
+				<svg width="13px" height="10px" viewBox="0 0 13 10">
+					<path d="M1,5 L11,5"></path>
+					<polyline points="8 1 12 5 8 9"></polyline>
+				</svg>
+			</a>
 		</div>
 	</section>
-	<script>
-		const buttons = document.querySelectorAll("[data-carousel-button]")
-
-		buttons.forEach(button => {
-			button.addEventListener("click", () => {
-				const offset = button.dataset.carouselButton === "next" ? 1 : -1
-				const slides = button
-					.closest("[data-carousel]")
-					.querySelector("[data-slides]")
-
-				const activeSlide = slides.querySelector("[data-active]")
-				let newIndex = [...slides.children].indexOf(activeSlide) + offset
-				if (newIndex < 0) newIndex = slides.children.length - 1
-				if (newIndex >= slides.children.length) newIndex = 0
-
-				slides.children[newIndex].dataset.active = true
-				delete activeSlide.dataset.active
-			})
-		})
-	</script>
-
-
 	<!--main pic ends here-->
 	<!--timer section starts here-->
 	<!--div class="text"><h2>Event starts in :</h2></div-->
