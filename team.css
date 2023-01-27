@@ -134,7 +134,10 @@ body{
 
 
 @media (max-width: 500px) {
+<<<<<<< HEAD
+=======
 
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
   .card-container {
     width: 300px;
     margin-bottom: 25px;

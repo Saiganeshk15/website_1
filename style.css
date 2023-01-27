@@ -61,6 +61,8 @@
   font-size: calc(20px + 1vw);
   color: whitesmoke;
 }
+<<<<<<< HEAD
+=======
 
 @media only screen and (max-width:600px) {
   .textinpic h2 {
@@ -70,6 +72,7 @@
 
 }
 
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 button {
   height: 40px;
   width: 20%;
@@ -91,6 +94,8 @@ button {
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
+<<<<<<< HEAD
+=======
 
 @media screen and (max-width:768px) {
   .cta {
@@ -104,11 +109,13 @@ button {
   }
 }
 
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 .cta:before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
+  display: block;
   border-radius: 28px;
   background: rgba(255, 171, 157, 0.5);
   width: 56px;
@@ -157,9 +164,18 @@ button {
     height: 444px;
   }
 
+<<<<<<< HEAD
+    .textinpic h2{
+        margin: 10px ;
+    }
+    .textinpic {
+        font-size: x-small;
+    }
+=======
   .textinpic h2 {
     margin: 20px;
   }
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 
   .textinpic {
     font-size: x-small;
