@@ -202,12 +202,11 @@ body {
 
 /**********  nav ends here**********/
 .footer {
-    margin-top: 3%;
     padding: 1% 0 2% 0;
     text-align: center;
     color: white;
-    background-color: #003F51;
-    border-radius: 5px;
+    background-color: #001b22;
+   
     
 }
 .footer p{

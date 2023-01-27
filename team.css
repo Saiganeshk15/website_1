@@ -22,6 +22,8 @@ body{
 /**********team section starts here********/
 .responsive-cell-block {
   min-height: 75px;
+  
+
 }
 
 .text-blk {
@@ -37,8 +39,12 @@ body{
   min-height: 75px;
   height: fit-content;
   max-width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap left;
   justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  
+
 }
 .responsive-container-block .responsive-cell-block{
   display: inline-block;
@@ -60,23 +66,19 @@ body{
 
 .container {
   max-width: 1380px;
-  /* margin-top: 60px; */
-  margin-right: auto;
   margin-bottom: 60px;
-  margin-left: auto;
 
 }
 
 .card {
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-  padding-right: 25px;
-  padding-bottom: 30px;
-  padding-left: 25px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 4px 20px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+
+    margin-left: 11px;
 }
 
 .card-container {
@@ -88,9 +90,8 @@ body{
 }
 
 .name {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 0px;
-  margin-bottom: 5px;
   margin-left: 0px;
   font-size: 18px;
   font-weight: 800;
@@ -99,7 +100,7 @@ body{
 .position {
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   margin-left: 0px;
 }
 
@@ -119,23 +120,29 @@ body{
 .instagram-icon{
     height: 30px;
     width: 30px;
+    margin-bottom: 2px;
 }
 .team-image-wrapper {
-  clip-path: circle(50% at 50% 50%);
-  width: 130px;
-  height: 130px;
+  width: 261px;
+ 
 }
 
 .team-member-image {
   max-width: 100%;
+  border-radius: 10px;
 }
 
+
 @media (max-width: 500px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
   .card-container {
     width: 300px;
     margin-bottom: 25px;
     margin-right: 0px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
 }
 /*********footer starts here************/

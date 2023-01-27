@@ -1,80 +1,115 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .text h2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 150%;
-    letter-spacing: -0.022em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -0.022em;
 
-    color: #003F51;
-    padding: 0px 10px;
-    margin: 10px 0px;
+  color: #003F51;
+  padding: 0px 10px;
+  margin: 10px 0px;
 
 }
 
 .text p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: -0.019em;
-    color: #1E1E1E;
-    text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.019em;
+  color: #1E1E1E;
+  text-align: center;
 }
 
+.testi {
+  background: #003F51;
+  color: white;
+}
 
 .bgpic {
-    margin-top: -2%;
-    width: 100%;
-    height:800px;
-    background: rgba(0, 0, 0, 0.207) url(wave\ bg.jpg) center;
-    background-size: cover;
-    background-blend-mode: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: -2%;
+  width: 100%;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.207) url(/bg-pic.jpg) center;
+  background-size: cover;
+  background-blend-mode: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .textinpic {
 
-    text-align: center;
-    
+  text-align: center;
+
 }
 
 
 .timer {
-    text-align: center;
-    
+  text-align: center;
+
 }
-.textinpic h2{
-    margin-bottom: 40px;
-    font-size: calc(20px + 1vw);
-    color: whitesmoke;
+
+.textinpic h2 {
+  margin-bottom: 40px;
+  font-size: calc(20px + 1vw);
+  color: whitesmoke;
 }
+<<<<<<< HEAD
+=======
+
+@media only screen and (max-width:600px) {
+  .textinpic h2 {
+    font-size: calc(18px + 1vw);
+  }
+
+
+}
+
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 button {
-    height: 40px;
-    width: 20%;
-    background-color:#eee;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
+  height: 40px;
+  width: 20%;
+  background-color: #eee;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
 }
-.main a{
+
+.main a {
   text-decoration-color: #111;
   color: #111;
   text-decoration-line: none;
 }
+
 .cta {
   position: relative;
   margin: auto;
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width:768px) {
+  .cta {
+    width: 100%;
+    background-color: #ffab9d;
+    border-radius: 28px;
+  }
+
+  .cta:before {
+    display: none;
+  }
+}
+
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 .cta:before {
   content: "";
   position: absolute;
@@ -87,6 +122,7 @@ button {
   height: 56px;
   transition: all 0.3s ease;
 }
+
 .cta span {
   position: relative;
   font-size: 16px;
@@ -96,6 +132,7 @@ button {
   text-transform: uppercase;
   vertical-align: middle;
 }
+
 .cta svg {
   position: relative;
   top: 0;
@@ -108,96 +145,111 @@ button {
   transform: translateX(-5px);
   transition: all 0.3s ease;
 }
-.cta:hover:before {
+
+.cta:hover::before {
   width: 100%;
   background: #ffab9d;
 }
+
 .cta:hover svg {
   transform: translateX(0);
 }
+
 .cta:active {
   transform: scale(0.96);
 }
 
 @media screen and (max-width: 600px) {
-    .bgpic {
-        height: 444px;
-    }
+  .bgpic {
+    height: 444px;
+  }
 
+<<<<<<< HEAD
     .textinpic h2{
         margin: 10px ;
     }
     .textinpic {
         font-size: x-small;
     }
+=======
+  .textinpic h2 {
+    margin: 20px;
+  }
+>>>>>>> d2c349c9c6c28cff60d9af161d3bf996fa6112c4
 
-    .footer {
-        font-size: x-small;
-    }
+  .textinpic {
+    font-size: x-small;
+  }
 
-    .ah1 {
-        font-size: medium;
-    }
+  .footer {
+    font-size: x-small;
+  }
+
+  .ah1 {
+    font-size: medium;
+  }
 }
 
 .ah1 {
-    font-size: large;
+  font-size: large;
 }
 
 .countdown-timer {
-    pointer-events: none;
-    cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
-.countdown-timer a{
+
+.countdown-timer a {
   text-decoration-color: white;
 }
 
 /****************about  starts here ******* */
 
 .about {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 40px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+  align-items: center;
 }
-.about h2{
-    margin: 20px 0px;
+
+.about h2 {
+  margin: 20px 0px;
 }
 
 .about .text {
-    max-width: 70%;
-    font-size: larger;
+  max-width: 70%;
+  font-size: larger;
 }
 
 .about .logo img {
-    height: 249.93px;
-    padding-top: 32px;
+  height: 249.93px;
+  padding-top: 32px;
 }
 
 @media screen and (max-width:1200px) {
-    .about {
-        flex-direction: column-reverse;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-        align-items: center;
-    }
+  .about {
+    flex-direction: column-reverse;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .about .text {
-        max-width: 90%;
-    }
+  .about .text {
+    max-width: 90%;
+  }
 
-    .about .logo {
-        max-width: 320px;
-        height: 300px;
-        margin: 25px 0px ;
-    }
+  .about .logo {
+    max-width: 320px;
+    height: 300px;
+    margin: 25px 0px;
+  }
 
-    .about .logo img {
-        max-width: 300px;
-        height:230px ;
+  .about .logo img {
+    max-width: 300px;
+    height: 230px;
 
-    }
+  }
 
 
 
@@ -206,231 +258,265 @@ button {
 /****************about  ends s here ******* */
 /*************** Gallery starts here *****/
 
-.gallary{
-    margin: 50px 0px ;
+.gallary {
+  margin: 50px 0px;
 }
-.gallary h2{
-    margin: 20px 0px;
+
+.gallary h2 {
+  margin: 20px 0px;
 }
+
 .gallary .pics {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
 }
 
 .gallary .gal_pic img {
-    width: 600px;
-    max-width: 90%;
-    text-align: center;
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
 }
-.gallary h2{
-    margin: 20px 0px;
+
+.gallary h2 {
+  margin: 20px 0px;
 }
 
 
 @media screen and (max-width:1000px) {
 
-    .gallary .pics {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .gal_pic{
-        margin-bottom: 40px;
-    }
+  .gallary .pics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gal_pic {
+    margin-bottom: 40px;
+  }
 
 
 }
 
 /*************** Gallery Ends  here ************/
-
-
 /***********testimonial***********/
 /* Slideshow container */
 .slideshow-container {
-    max-width: 400px;
-    position: relative;
-    margin: auto;
-  }
-  .testimonial{
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  /* position the "previous button" to the left */
-  .prev{
-    left: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: #717171;
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    /* padding: 8px 12px; */
-    /* position: absolute; */
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: black;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .responsive-cell-block {
-    min-height: 75px;
-  }
-  .card {
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-right: 25px;
-    padding-bottom: 30px;
-    padding-left: 25px;
-  }
-  
-  .card-container {
-    /* width: 400px;
+  max-width: max-content;
+  width: 98%;
+  position: relative;
+  margin: auto;
+}
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.justify{
+  text-align: justify;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  /* transition: 0.6s ease; */
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin: 0px -10px ;
+}
+
+/* position the "previous button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  margin: 0px -10px ;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #717171;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  /* padding: 8px 12px; */
+  /* position: absolute; */
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.responsive-cell-block {
+  min-height: 75px;
+}
+
+.card {
+  text-align: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  color: white;
+}
+
+.card-container {
+  /* width: 400px;
     margin-top: 0px;
     margin-right: 10px; */
-    margin-bottom: 25px;
-    /* margin-left: 10px; */
+  margin-bottom: 25px;
+  /* margin-left: 10px; */
+}
+
+.text-blk {
+  color: #ffffff;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.responsive-container-block {
+  text-align: center;
+  min-height: 75px;
+  height: fit-content;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
   }
-  
-  .text-blk {
-    color: #003F51;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    line-height: 25px;
+
+  to {
+    opacity: 1
   }
-  
-  .responsive-container-block {
-    text-align: center;
-    min-height: 75px;
-    height: fit-content;
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: space-evenly;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
   }
-  .card{
-    text-align: center;
-    justify-content: center;
-  }
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  @media (max-width: 500px) {
-    /* .card-container {
+}
+
+@media (max-width: 500px) {
+  /* .card-container {
       width: 300px;
       margin-bottom: 25px;
       margin-right: 0px;
       margin-left: -20px;
     } */
-  }
-  .team-image-wrapper {
-    clip-path: circle(50% at 50% 50%);
-    width: 130px;
-    height: 130px;
-  }
-  
-  .team-member-image {
-    max-width: 100%;
-  }
+}
+
+.team-image-wrapper {
+  clip-path: circle(50% at 50% 50%);
+  width: 130px;
+  height: 130px;
+}
+
+.team-member-image {
+  max-width: 100%;
+}
 
 
 
 /*************** footer starts here*************/
 .footer {
-    text-align: center;
-    color: white;
-    background-color: #003F51;
-    border-radius: 5px;
-    
+  text-align: center;
+  color: white;
+  background-color: #00171e;
+
+
 }
-.footer p{
-    font-size: 13px ;
+
+.footer p {
+  font-size: 13px;
 }
 
 .logos div {
-    display: inline-block;
-    padding: 0% 1%;
+  display: inline-block;
+  padding: 0% 1%;
 }
 
 .logos img {
-    margin-top: 10px ;
-    height: 20px;
-    width: 20px;
+  margin-top: 10px;
+  height: 20px;
+  width: 20px;
 }
-/*/*//*//************************************/
+
+/*/*/
+/*//************************************/
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -441,7 +527,7 @@ button {
   /* countdown */
 }
 
-.bg-blue{
+.bg-blue {
   background-color: rgb(218, 218, 255);
 }
 
@@ -484,6 +570,10 @@ button {
 #header .countdown div h4 {
   font-size: 16px;
   font-weight: 600;
+}
+
+.testi-h2 {
+  color: white;
 }
 
 @media (max-width: 575px) {
