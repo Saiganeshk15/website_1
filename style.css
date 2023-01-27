@@ -56,13 +56,6 @@
     font-size: calc(20px + 1vw);
     color: whitesmoke;
 }
-@media only screen and (max-width:600px) {
-  .textinpic h2{
-    font-size: calc(18px + 1vw);
-  }
-
-  
-}
 button {
     height: 40px;
     width: 20%;
@@ -82,21 +75,12 @@ button {
   padding: 19px 22px;
   transition: all 0.2s ease;
 }
-@media screen and (max-width:768px){
-  .cta{
-    width: 100%;
-    background-color: #ffab9d;
-    border-radius: 28px;
-  }
-  .cta:before{
-    display: none;
-  }
-}
 .cta:before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
+  display: block;
   border-radius: 28px;
   background: rgba(255, 171, 157, 0.5);
   width: 56px;
@@ -141,7 +125,7 @@ button {
     }
 
     .textinpic h2{
-        margin: 20px ;
+        margin: 10px ;
     }
     .textinpic {
         font-size: x-small;

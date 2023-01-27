@@ -131,9 +131,6 @@ body{
 }
 
 @media (max-width: 500px) {
-  .navbar .nav-links{
-    position: relative;
-  } 
   .card-container {
     width: 300px;
     margin-bottom: 25px;
