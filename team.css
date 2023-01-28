@@ -77,16 +77,17 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
-
     margin-left: 11px;
+    background: #f0e2e2;
 }
 
 .card-container {
-  width: 280px;
+  width: 300px;
   margin-top: 0px;
   margin-right: 10px;
   margin-bottom: 25px;
   margin-left: 10px;
+  
 }
 
 .name {
