@@ -282,16 +282,15 @@ body {
 
 /**********  nav ends here**********/
 .footer {
-    padding: 1% 0 2% 0;
+    padding: 20px 0px ;
     text-align: center;
     color: white;
     background-color: #001b22;
-   
     
 }
 .footer p{
     font-size: 15px ;
-    margin-top: 10px;
+   
 }
 
 .logos div {
