@@ -56,41 +56,53 @@
 
 .timer {
   text-align: center;
+  margin-bottom: 15px ;
 
+}
+
+.aviskar-h2 {
+  font-size: calc(70px + 1vw)!important;
+  color: whitesmoke;
 }
 
 .textinpic h2 {
   margin-bottom: 40px;
-  font-size: calc(20px + 1vw);
+  font-size: calc(50px + 1vw);
   color: whitesmoke;
+
+
 }
 
 @media only screen and (max-width:600px) {
   .textinpic h2 {
     font-size: calc(18px + 1vw);
   }
+  .aviskar-h2 {
+    font-size: calc(30px + 1vw)!important;
+  }
 
 
 }
-
 button {
   height: 40px;
-  width: 140px ;
+  width: 140px;
   background-color: #eee;
   border: 2px solid white;
   border-radius: 5pc;
   color: rgb(0, 0, 0);
+  margin-top: 20px ;
 }
 
 .main a {
   text-decoration-color: #111;
   color: #111;
   text-decoration-line: none;
-  font-size: 15px ;
+  font-size: 15px;
   font-weight: bold;
 }
-button:hover{
-  background-color:rgb(227, 194, 154);
+
+button:hover {
+  background-color: rgb(227, 194, 154);
   transition: 100ms ease-in;
 
 }
@@ -241,7 +253,8 @@ button:hover{
   text-align: center;
   margin-bottom: 50px;
 }
-.justify{
+
+.justify {
   text-align: justify;
 }
 
@@ -266,14 +279,14 @@ button:hover{
 .next {
   right: 5px;
   border-radius: 3px 0 0 3px;
-  margin: 0px -10px ;
+  margin: 0px -10px;
 }
 
 /* position the "previous button" to the left */
 .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
-  margin: 0px -10px ;
+  margin: 0px -10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -330,12 +343,13 @@ button:hover{
   padding-left: 25px;
   color: white;
 }
-@media only  screen and (max-width:768px ) {
-.card{
-  padding: 0px 12px ;
-}
 
-  
+@media only screen and (max-width:768px) {
+  .card {
+    padding: 0px 12px;
+  }
+
+
 }
 
 .card-container {
@@ -353,11 +367,12 @@ button:hover{
   font-size: 14px;
   font-style: italic;
 }
-@media only  screen  and (max-width:768px){
+
+@media only screen and (max-width:768px) {
   .text-blk {
     max-width: 100%;
   }
-  
+
 }
 
 .responsive-container-block {

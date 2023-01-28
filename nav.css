@@ -192,7 +192,7 @@ body {
   .navbar .nav-btn label {
     display: flex;
     width: 50px;
-    padding-top: 5px;
+    padding-top: 9px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -207,7 +207,7 @@ body {
 
   .navbar .nav-btn label:hover,
   .navbar #nav-check:checked~.nav-btn label {
-    background-color: #0081c2;
+    background-color: #0081c200;
     transition: all 0.5s ease;
   }
 
@@ -216,7 +216,6 @@ body {
     text-align: center;
     width: 100%;
     background-color: #0081c2;
-    background-color:#0081c2;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
