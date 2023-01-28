@@ -84,7 +84,7 @@ video {
 
 @media screen and (max-width: 500px) {
     .samples a {
-        font-size: small;
+        font-size: 15px;
         font-weight: 500;
     }
 
