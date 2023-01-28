@@ -264,7 +264,7 @@ button:hover{
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 5px;
   border-radius: 3px 0 0 3px;
   margin: 0px -10px ;
 }
