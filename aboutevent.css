@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-h1{
+
+h1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -15,21 +16,25 @@ h1{
     margin: 10px 0px;
     text-align: center;
 }
+
 h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: calc(20px + 0.5vw);
+    font-size: calc(26px + 0.5vw);
     line-height: 150%;
     letter-spacing: -0.022em;
-
+    /* color: orangered; */
     color: #003F51;
     margin: 10px 0px;
+    /* font-family: 'Roboto', sans-serif!important; */
 
 }
-.about-content p{
-    margin: 5px 0;
+
+.about-content p {
+    margin: 19px 0px 10px 0px ;
     text-align: justify;
+    font-size: 24px;
 }
 
 .header {
@@ -42,25 +47,32 @@ h2 {
     height: 10%;
     width: 80%;
 }
+
 /* about content starts here */
-.hd-li{
+.hd-li {
     padding: auto;
 }
-.pi-li{
+
+.pi-li {
     justify-content: center;
 }
-.about-content{
-    margin-left: 40px ;
+
+.about-content {
+    margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 15px ;
+    margin-bottom: 40px;
 }
+
 @media only screen and (max-width:500px) {
-    .about-content{
-        margin: 0px 13px  ;
+    .about-content {
+        margin: 0px 13px;
         margin-bottom: 20px;
 
     }
-    
+    .about-content p{
+        font-size: 15px ;
+    }
+
 }
 
 
