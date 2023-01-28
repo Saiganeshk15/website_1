@@ -3,6 +3,65 @@
   margin: 0px;
 }
 
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+
+.loaders {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 100;
+  
+}
+
+.loader {
+  min-width: 100px;
+}
+
+/* circle loaders */
+
+.circle-loader-1 {
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  border-top: 10px solid rgba(93, 113, 220, 0.2);
+  border-right: 10px solid rgba(93, 113, 220, 0.2);
+  border-bottom: 10px solid rgba(93, 113, 220, 0.2);
+  border-left: 10px solid rgba(93, 113, 220, 1);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: circle-loader-spin 1s infinite linear;
+  animation: circle-loader-spin 1s infinite linear;
+}
+
+@keyframes circle-loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+
 .text h2 {
   font-family: 'Inter';
   font-style: normal;

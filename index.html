@@ -11,7 +11,9 @@
 </head>
 
 <body>
-	<!-- <div class="loader"></div> -->
+	<div class="loaders" id="loaders">
+		<div class="loader circle-loader-1"></div>
+	  </div>
 
 	<!--header starts here-->
 	<header class="header">
@@ -376,6 +378,15 @@
 		</footer>
 
 		<!--footer section ends here-->
+
+
+		<script>
+			var loader = document.getElementById("loaders");
+
+			window.addEventListener("load", function(){
+				loader.style.display = "none";
+			})
+		</script>
 </body>
 
 </html>
