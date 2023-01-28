@@ -74,12 +74,12 @@
 }
 
 button {
-  height: 40px;
-  width: 20%;
+  height: 30px;
+  width: 150px ;
   background-color: #eee;
   border: 2px solid white;
-  border-radius: 5px;
-  font-size: 18px;
+  border-radius: 5pc;
+  font-size: calc(10px + 1vw);
   color: rgb(0, 0, 0);
 }
 
@@ -89,8 +89,9 @@ button {
   text-decoration-line: none;
 }
 button:hover{
-  font-size: 20px;
-  transition: 100ms;
+  background-color:bisque;
+  transition: 100ms ease-in;
+
 }
 
 
