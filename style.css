@@ -345,6 +345,13 @@ button:hover{
   margin-bottom: 0px;
   margin-left: 0px;
   line-height: 25px;
+  max-width: 88%;
+}
+@media only  screen  and (max-width:768px){
+  .text-blk {
+    max-width: 100%;
+  }
+  
 }
 
 .responsive-container-block {
