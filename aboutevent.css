@@ -28,7 +28,7 @@ h2 {
 
 }
 .about-content p{
-    margin: 5px 3% ;
+    margin: 5px 0;
     text-align: justify;
 }
 
@@ -47,7 +47,6 @@ h2 {
     padding: auto;
 }
 .pi-li{
-    margin-left: 2%;
     justify-content: center;
 }
 .about-content{
