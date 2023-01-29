@@ -65,7 +65,7 @@ h2 {
 
 @media only screen and (max-width:500px) {
     .about-content {
-        margin: 0px 15px;
+        margin: 0px 22px;
         margin-bottom: 20px;
         max-width: 100%;
 
@@ -73,7 +73,7 @@ h2 {
     }
 
     .about-content p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
 }
