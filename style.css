@@ -108,6 +108,12 @@ button:hover {
 }
 
 
+
+@media screen and (min-width: 1025px) {
+  .text-blk{
+    font-size: 20px ;
+  }
+  }
 @media screen and (max-width: 600px) {
   .bgpic {
     height: 444px;
