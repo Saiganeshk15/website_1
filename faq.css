@@ -25,6 +25,7 @@ dl.faq button {
   border: none;
   background-color: transparent;
   border-radius: 5px;
+  text-align: justify;
 }
 
 dt{
