@@ -74,7 +74,7 @@ body{
     align-items: center;
 }
 .header {
-    background-color:#301E67;
+    background-color:#12122e;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -281,10 +281,10 @@ body {
 
 /**********  nav ends here**********/
 .footer {
-    padding: 20px 0px ;
+    padding: 40px 0px ;
     text-align: center;
     color: white;
-    background-color: #001b22;
+    background-color: #12122e;
     
 }
 .footer p{
