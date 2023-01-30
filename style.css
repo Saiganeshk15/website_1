@@ -19,6 +19,11 @@
   margin: 10px 0px;
 
 }
+@media screen and (max-width:376px){
+  .text h2{
+    font-size: 30px;
+  }
+}
 
 .text p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,13 +43,14 @@
 .bgpic {
   margin-top: -2%;
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.66) url(bg-pic2.jpg) center;
   background-size: cover;
   background-blend-mode: darken;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .textinpic {
@@ -119,7 +125,7 @@ button:hover {
   }
 @media screen and (max-width: 600px) {
   .bgpic {
-    height: 444px;
+    height: 100vh;
   }
 
   .textinpic h2 {
